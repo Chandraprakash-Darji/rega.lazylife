@@ -1,0 +1,15 @@
+[package]
+name = "lazylife"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ratatui = "0.26.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+crossterm = "0.27"
+dirs = "5.0"
+toml = "0.8"
+rand = "0.8"
+serde_yaml = "0.9.34"
